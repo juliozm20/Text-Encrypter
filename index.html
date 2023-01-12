@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico" />
+    <title>Text Encrypter</title>
+  </head>
+
+  <body>
+    <img src="img/Logo.svg" alt="" id="logo" />
+    <textarea
+      placeholder="Ingrese el texto aqui"
+      id="text_input"
+      rows="10"
+      maxlength="380"
+    ></textarea>
+
+    <div class="alert">
+      <img src="img/Vector.svg" alt="" />
+      <p>Solo letras minúsculas y sin acentos</p>
+    </div>
+
+    <div class="buttons">
+      <button id="btn_encrypt">Encriptar</button>
+      <button id="btn_decrypt">Desencriptar</button>
+    </div>
+
+    <div class="msg_card">
+      <img src="img/Muñeco.svg" alt="Muñeco" id="msg_img" />
+      <p id="msg_p">Ningún mensaje fue encontrado</p>
+      <p id="msg_p_light">
+        Ingresa el texto que deseas encriptar o desencriptar
+      </p>
+    </div>
+    <div class="msg_result">
+      <span id="result"></span>
+      <button id="copy">Copiar</button>
+    </div>
+    <footer>
+      <p>Made by Julio Lozano</p>
+    </footer>
+  </body>
+  <script src="app.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</html>
