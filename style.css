@@ -1,10 +1,12 @@
 html,
 body {
   margin: 0;
+  min-width: none;
   height: 100%;
 }
 
 body {
+  display: flex;
   background: #e5e5e5;
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -230,6 +232,10 @@ footer {
   top: 1000px;
 }
 
+#github {
+  margin-left: 10px;
+}
+
 @media only screen and (max-width: 1740px) {
   .msg_card {
     left: 870px;
@@ -336,7 +342,8 @@ footer {
   }
 
   footer {
-    display: none;
+    top: 1345px;
+    left: 105px;
   }
 }
 
@@ -359,6 +366,9 @@ footer {
   }
   textarea {
     left: 80px;
+  }
+  footer {
+    left: 75px;
   }
 }
 
@@ -386,6 +396,10 @@ footer {
   textarea {
     left: 60px;
   }
+  footer {
+    top: 1285px;
+    left: 55px;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -408,6 +422,13 @@ footer {
   #copy {
     width: 535px;
   }
+  #result {
+    width: 474px;
+  }
+  footer {
+    top: 1285px;
+    left: 25px;
+  }
 }
 
 @media only screen and (max-width: 678px) {
@@ -429,6 +450,10 @@ footer {
   }
   #copy {
     width: 445px;
+  }
+  footer {
+    top: 1285px;
+    left: -30px;
   }
 }
 
@@ -478,5 +503,9 @@ footer {
 
   #copy {
     width: 325px;
+  }
+  footer {
+    top: 1290px;
+    left: 5px;
   }
 }

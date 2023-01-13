@@ -16,38 +16,43 @@
   </head>
 
   <body>
-    <img src="img/Logo.svg" alt="" id="logo" />
-    <textarea
-      placeholder="Ingrese el texto aqui"
-      id="text_input"
-      rows="10"
-      maxlength="380"
-    ></textarea>
+    <div class="contents">
+      <img src="img/Logo.svg" alt="" id="logo" />
+      <textarea
+        placeholder="Ingrese el texto aqui"
+        id="text_input"
+        rows="10"
+        maxlength="380"
+      ></textarea>
 
-    <div class="alert">
-      <img src="img/Vector.svg" alt="" />
-      <p>Solo letras minúsculas y sin acentos</p>
-    </div>
+      <div class="alert">
+        <img src="img/Vector.svg" alt="" />
+        <p>Solo letras minúsculas y sin acentos</p>
+      </div>
 
-    <div class="buttons">
-      <button id="btn_encrypt">Encriptar</button>
-      <button id="btn_decrypt">Desencriptar</button>
-    </div>
+      <div class="buttons">
+        <button id="btn_encrypt">Encriptar</button>
+        <button id="btn_decrypt">Desencriptar</button>
+      </div>
 
-    <div class="msg_card">
-      <img src="img/Muñeco.svg" alt="Muñeco" id="msg_img" />
-      <p id="msg_p">Ningún mensaje fue encontrado</p>
-      <p id="msg_p_light">
-        Ingresa el texto que deseas encriptar o desencriptar
-      </p>
+      <div class="msg_card">
+        <img src="img/Muñeco.svg" alt="Muñeco" id="msg_img" />
+        <p id="msg_p">Ningún mensaje fue encontrado</p>
+        <p id="msg_p_light">
+          Ingresa el texto que deseas encriptar o desencriptar
+        </p>
+      </div>
+      <div class="msg_result">
+        <span id="result"></span>
+        <button id="copy">Copiar</button>
+      </div>
+      <footer>
+        <p>Made by Julio Lozano</p>
+        <a href="https://github.com/juliozm20/Text-Encrypter" target="_blank"
+          ><img src="img/icons8-github.svg" alt="" id="github"
+        /></a>
+      </footer>
     </div>
-    <div class="msg_result">
-      <span id="result"></span>
-      <button id="copy">Copiar</button>
-    </div>
-    <footer>
-      <p>Made by Julio Lozano</p>
-    </footer>
   </body>
   <script src="app.js"></script>
   <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
