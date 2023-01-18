@@ -1,5 +1,5 @@
-# Text-Encrypter https://juliozm20.github.io/Text-Encrypter/
-## Oracle Challenge | Text Encrypter/Decrypter using JS
+# Text-Encrypter
+## Oracle Challenge | Text Encrypter/Decrypter using JS requires [Demo site](https://juliozm20.github.io/Text-Encrypter/)
 
 Text-Encrypter is a web application that encrypts/decrypts the input string and outputs the message
 The encryption is:
