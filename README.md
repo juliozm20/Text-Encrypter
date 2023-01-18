@@ -19,3 +19,6 @@ The encryption rules are:
 ## Examples:
 "gato" => "gaitober"
 gaitober" => "gato"
+
+## Demo:
+![](https://github.com/juliozm20/Text-Encrypter/blob/main/encrypter-demo.gif)
