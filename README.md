@@ -3,13 +3,13 @@
 
 Text-Encrypter is a web application that encrypts/decrypts the input string and outputs the message.
 
-The encryption is:
+The encryption rules are:
 
-Letter "e" is converted to "enter"
-Letter "i" is converted to "imes"
-Letter "a" is converted to "ai"
-Letter "o" is converted to "ober"
-Letter "u" is converted to "ufat"
+- Letter "e" is converted to "enter"
+- Letter "i" is converted to "imes"
+- Letter "a" is converted to "ai"
+- Letter "o" is converted to "ober"
+- Letter "u" is converted to "ufat"
 
 ## Requisites:
 - Only lowecase letters
