@@ -160,6 +160,11 @@ textarea {
   flex-grow: 0;
 }
 
+#btn_encrypt:hover {
+  background: #224b7f;
+  box-shadow: 0 24px 32px -8px rgba(0, 0, 0, 0.2);
+}
+
 #btn_decrypt {
   cursor: pointer;
   width: 328px;
@@ -173,6 +178,11 @@ textarea {
   flex: none;
   order: 1;
   flex-grow: 0;
+}
+
+#btn_decrypt:hover {
+  background: #c2c8d0;
+  box-shadow: 0 24px 32px -8px rgba(0, 0, 0, 0.2);
 }
 
 .msg_result {
